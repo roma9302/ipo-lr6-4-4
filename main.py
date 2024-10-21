@@ -1,3 +1,4 @@
+
 """
 Написать программу, которая:
 - Запрашивает у пользователя строку для поиска.
@@ -20,7 +21,7 @@ with open("C:/Users/user/учеба/IPO/lb6/text.txt", 'r', encoding='utf-8') as
         if search_string in line:  # Проверка, содержится ли искомая подстрока в строке
             search_lines.append(line)  
             counter += 1
-        else:
+    else:
             print("Строка не найдена")
 
 # Вывод результатов
