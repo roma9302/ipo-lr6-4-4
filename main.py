@@ -16,7 +16,7 @@ counter = 0
 search_string = input("Введите строку для поиска: ")
 
 # Чтение файла построчно
-with open("C:/Users/user/учеба/IPO/lb6/text.txt", 'r', encoding='utf-8') as file:
+with open("text.txt", 'r', encoding='utf-8') as file:
     for line in file:
         if search_string in line:  # Проверка, содержится ли искомая подстрока в строке
             search_lines.append(line)  
